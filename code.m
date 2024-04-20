@@ -71,5 +71,5 @@ im = Im[LINDBLAD];
 LL = Table[{Flatten[re, 1][[i]], Flatten[im, 1][[i]]}, {i, 1, 
     Length[Flatten[re, 1]]}];
 Export["L.dat", LL];
-Print["LINBLAD Operator crated L.dat"]
+Print["LINBLAD Operator crated L.dat"];
 Exit[];
