@@ -1,4 +1,3 @@
-SetDirectory[NotebookDirectory[]];
 info := {
   Print[StyleForm[
     "=====================================================", 
