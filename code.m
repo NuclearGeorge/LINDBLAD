@@ -7,7 +7,7 @@ info := {
     StyleForm[" LINDBLAD OPERATOR", "Section", FontSize -> 14, 
      Black] ];
    Print[
-    StyleForm["BY: Jorge Chavez-Carlos, 2024", "Section", 
+    StyleForm["BY: Jorge Carlos, 2024", "Section", 
      FontSize -> 12, Black]];
    Print[
     StyleForm["=====================================================",
