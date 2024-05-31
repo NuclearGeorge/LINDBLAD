@@ -4,7 +4,7 @@ info := {
     StyleForm["=====================================================",
       "Section", FontSize -> 14, Black]];
    Print[StyleForm["PACKAGE:", "Section", FontSize -> 14], 
-    StyleForm["LINDBLAD OPERATOR", "Section", FontSize -> 14, 
+    StyleForm[" LINDBLAD OPERATOR", "Section", FontSize -> 14, 
      Black] ];
    Print[
     StyleForm["BY: Jorge Chávez-Carlos, 2024", "Section", 
@@ -14,7 +14,7 @@ info := {
       "Section", FontSize -> 14, Black]];
    Print[
     StyleForm["LINDBLAD_1.2 package:", "Section", FontSize -> 12, 
-     Black]];};
+     Black]];}[[1]];
 LINDBLAD[Hi_, Csi_, gsi_, hi_] := {
     Clear[Conm, AntConm, HH, CCs, gss, hh, dim, lnlindblad, 
      CCds, \[Rho], lind, o, LIND, LINDBLADN];
